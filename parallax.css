@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+htmml {
+    min-width: 280px;
+}
+
 @font-face {
     font-family: 'Georgina';
     src: url('Fontes/Hello\ Giorgina.ttf') format('opentype'), url('Fontes/Hello\ Giorgina.ttf') format('truetype');
@@ -21,6 +25,10 @@
     --cor_8: #fbd87f;
     --handwriting_font: 'Georgina';
     --handwriting_font_2: 'Song';
+}
+
+main {
+    min-width: 280px;
 }
 
 body {
