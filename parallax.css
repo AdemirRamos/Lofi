@@ -53,6 +53,7 @@ h1#título4 {
 
 section {
     width: 96%;
+    min-width: 280px;
     height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
