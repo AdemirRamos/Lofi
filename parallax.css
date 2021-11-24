@@ -25,6 +25,7 @@
 
 body {
     background-color: white;
+    min-width: 280px;
 }
 
 h1#título {
