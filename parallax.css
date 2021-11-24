@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Georgina';
+    src: url('Fontes/Hello\ Giorgina.ttf') format('opentype'), url('Fontes/Hello\ Giorgina.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Song';
+    src: url('Fontes/Please\ write\ me\ a\ song.ttf') format('opentype'), url('Fontes/Please\ write\ me\ a\ song.ttf') format('truetype');
+}
+
+:root {
+    --cor_1: #f6501d93;
+    --cor_2: #73bfb74f;
+    --cor_3: #fbd87f98;
+    --cor_4: #8447ff6b;
+    --cor_5: #ffcad494;
+    --cor_6: #73bfb7;
+    --cor_7: #8447ff;
+    --cor_8: #fbd87f;
+    --handwriting_font: 'Georgina';
+    --handwriting_font_2: 'Song';
+}
+
+body {
+    background-color: white;
+}
+
+h1#título {
+    font-family: 'Song';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    display: block;
+}
+
+h1#título2 {
+    font-family: var(--handwriting_font_2);
+    background-image: linear-gradient(to right, var(--cor_6), transparent);
+}
+
+h1#título3 {
+    font-family: var(--handwriting_font_2);
+    background-image: linear-gradient(to right, var(--cor_7), transparent);
+}
+
+h1#título4 {
+    font-family: var(--handwriting_font_2);
+    background-image: linear-gradient(to right, var(--cor_8), transparent);
+}
+
+section {
+    width: 96%;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: justify;
+    text-indent: 5px;
+    padding: 26px;
+}
+
+section:nth-of-type(2) {
+    background-image: url('Imagens/lofi1.jpg');
+}
+
+section:nth-of-type(4) {
+    background-image: url('Imagens/lofi2.jpg');
+}
+
+section:nth-of-type(6) {
+    background-image: url('Imagens/lofi3.jpg');
+}
+
+section:nth-of-type(8) {
+    background-image: url('Imagens/lofi5.jpg');
+}
+
+#área_1 {
+    background-color: var(--cor_5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#área_2 {
+    background-color: var(--cor_4);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+}
+
+#área_3 {
+    background-color: var(--cor_3);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+}
+
+#área_4 {
+    background-color: var(--cor_2);
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1px;
+}
